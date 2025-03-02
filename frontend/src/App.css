@@ -1,0 +1,29 @@
+@keyframes loadingDots {
+
+   0%,
+   20% {
+      width: 30px;
+      content: ".";
+   }
+
+   40% {
+      width: 30px;
+      content: "..";
+   }
+
+   60%,
+   100% {
+      width: 30px;
+      content: "...";
+   }
+}
+
+.loading-dots::after {
+   content: "...";
+   display: inline-block;
+   animation: loadingDots 1.5s infinite;
+}
+
+.height {
+   height: 93vh;
+}
