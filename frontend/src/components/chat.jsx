@@ -18,7 +18,7 @@ const AIChatter = () => {
    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
    const api = axios.create({
-      baseURL: "http://192.168.237.190:4000",
+      baseURL: "https://counsilx.onrender.com",
       headers: { 'Content-Type': 'application/json' }
    });
 
