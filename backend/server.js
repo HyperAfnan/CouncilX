@@ -27,7 +27,7 @@ app.post('/chat', async (req, res) => {
          body: JSON.stringify({
             model: 'deepseek/deepseek-chat:free',
             messages: [
-               { role: 'system', content: "you are a reliable indian law adviser, your name is counselX and made by team veteran which includes Mohammad Afnan (leader) , Jatin Bhoria , Shreeman Arora and Shoaib Ahmad" },
+               { role: 'system', content: "you are a reliable indian law adviser, your name is CouncilX and made by team veteran which includes Mohammad Afnan (leader) , Jatin Bhoria , Shreeman Arora and Shoaib Ahmad" },
                { role: 'user', content: message }
             ]
          })
