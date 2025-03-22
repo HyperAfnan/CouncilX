@@ -79,7 +79,7 @@ const AIChatter = () => {
          <header className="bg-gray-900 p-4">
             <div className="container mx-auto flex justify-between items-center">
                <div className="text-white text-xl font-bold flex float-left">
-               <img src={Logo} alt="CouncilX logo" className="h-8 w-8 mr-2 text-white" /> Counsel<span className="text-cyan-400">X</span>
+               <img src={Logo} alt="CouncilX logo" className="h-8 w-8 mr-2 text-white" /> Council<span className="text-cyan-400">X</span>
                </div>
                <div className="flex float-right space-x-3">
                   <button className="w-8 h-8 rounded-full bg-gray-700 flex items-center justify-center text-white">
